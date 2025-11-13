@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+header{
+    height: 900px;
+    
+    
+    
+}
+.heropanel{
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-color: aliceblue;             
+    background-image: url(/NetflixProject/img/netflixbanner2.jpg);
+    
+}
+
+.navbar{
+    height: 88px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-left: 50px;
+    height: 40px;
+    width: 148px;
+    background-image: url(/NetflixProject/img/netflix\ logo-Photoroom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+}
+
+.extra{
+    width: 70%;
+}
+
