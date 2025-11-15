@@ -6,9 +6,7 @@
 }
 header{
     height: 900px;
-    
-    
-    
+      
 }
 .heropanel{
     height: 800px;
@@ -17,6 +15,7 @@ header{
     background-position: center; 
     background-color: aliceblue;             
     background-image: url(/NetflixProject/img/netflixbanner2.jpg);
+   
     
 }
 
@@ -38,6 +37,32 @@ h1{
 }
 
 .extra{
-    width: 70%;
+    width: 60%;
 }
 
+.cont {
+    color: white;
+    display: flex;
+}
+
+.lang{
+    height: 32px;
+    width: 124px;
+    border: 2px solid rgb(209, 206, 206);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont select{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: none;
+}
+
+#icon {
+    font-size: 9px;
+}
