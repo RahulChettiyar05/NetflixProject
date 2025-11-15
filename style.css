@@ -14,7 +14,7 @@ header{
     background-size: cover;
     background-position: center; 
     background-color: aliceblue;             
-    background-image: url(/NetflixProject/img/netflixbanner2.jpg);
+    background-image: url(/NetflixProject/img/netflixbanner3.jpg);
    
     
 }
@@ -27,8 +27,8 @@ header{
 
 h1{
     margin-left: 50px;
-    height: 40px;
-    width: 148px;
+    height: 60px;
+    width: 160px;
     background-image: url(/NetflixProject/img/netflix\ logo-Photoroom.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +48,7 @@ h1{
 .lang{
     height: 32px;
     width: 124px;
-    border: 2px solid rgb(209, 206, 206);
+    border: 0.5px solid rgb(209, 206, 206);
     border-radius: 5px;
     display: flex;
     justify-content: space-evenly;
@@ -59,10 +59,28 @@ h1{
     background: none;
     color: white;
     border: none;
-    font-size: 20px;
-    -webkit-appearance: none;
+    font-size: 15px;
+    -webkit-appearance: none; /* used to remove the icon */
 }
 
 #icon {
     font-size: 9px;
+}
+
+/* For sign in button */
+
+.cont button {
+    margin-left: 10px;
+    height: 34px;
+    width: 77px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(180, 11, 19);
 }
