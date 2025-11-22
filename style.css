@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family:  sans-serif;
+    /* background-color: black; */
     
 }
 header{
@@ -25,7 +26,7 @@ header{
     align-items: center;
 }
 
-h1{
+#image{
     margin-left: 150px;
     height: 48px;
     width: 200px;
@@ -85,4 +86,79 @@ h1{
 
 button:hover{
     background-color: rgb(180, 11, 19);
+}
+
+
+.textbanner {
+    height: 620px;
+    color: white;
+    padding: 0px 32px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.headertext{
+    height: 200px;
+    width: 588px;  
+    text-align: center;
+    font-weight:bolder;    
+}
+#htext{
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+#smalltext {
+    font-size: 20px;
+    margin-bottom: 32px;  
+}
+
+h3{
+    height: 24px;
+    width: 588px;
+    font-size: 16px;
+    font-weight:lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logind{
+    padding-top: 16px;
+    height: 56px;
+    width: 588px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailinput{
+    height: 24px;
+    width: 366.75px;
+    background: transparent;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(125, 119, 119);
+    border-style: solid;
+    padding: 20px 16px 10px 16px;
+    font-size: 16px;
+    text-align: start;
+    color: white;
+}
+
+.gsbutton{
+    background-color: rgb(229, 9, 20);
+    border-color: rgb(229, 9, 20);
+    border: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rightangle{
+    margin-left: 8px;
 }
