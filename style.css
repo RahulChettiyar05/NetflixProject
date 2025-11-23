@@ -167,5 +167,25 @@ h3{
 
 .container{
     height: 900px;
+    
     background-color: black;
 }
+
+.curveborder{
+    height: 100px ;
+    display: flex;
+    align-items: end;
+    border-top-left-radius: 100% ;
+    border-top-right-radius: 100% ;
+     border: 5px solid transparent;
+    border-bottom: none;
+    border-left: none;
+    border-right: none; 
+    background:
+    linear-gradient(to right, #ff006a, #ff4b2b) border-box;
+    background-clip: padding-box, border-box;
+    box-sizing: border-box;
+    
+       
+}
+
