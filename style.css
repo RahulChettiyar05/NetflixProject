@@ -166,26 +166,46 @@ h3{
 /* After input and button */
 
 .container{
-    height: 900px;
-    
+    height: 50px;
+    color: white;
     background-color: black;
 }
 
 .curveborder{
     height: 100px ;
-    display: flex;
     align-items: end;
     border-top-left-radius: 100% ;
     border-top-right-radius: 100% ;
-     border: 5px solid transparent;
-    border-bottom: none;
+    border: 6px solid transparent;
+    /* border-bottom: none; */
     border-left: none;
     border-right: none; 
     background:
-    linear-gradient(to right, #ff006a, #ff4b2b) border-box;
-    background-clip: padding-box, border-box;
+    linear-gradient(#615ebeed,#000000,#000000,#000000) padding-box,
+    linear-gradient(45deg, black,#ff006a, #ff4b2b,#ff006a,black) border-box;
     box-sizing: border-box;
-    
-       
+         
 }
 
+.bigcontainer{
+    padding-left: 148px;
+    padding-right: 148px;
+    height:2160px;
+    background-color: black;
+    color: white;
+    
+}
+
+#trending{
+    font-size: 24px;
+    font-weight: bolder;   
+}
+
+.scrollmov{
+    height: 314px;
+    
+}
+
+.scroll{
+    
+}
