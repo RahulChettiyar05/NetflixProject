@@ -30,7 +30,7 @@ header{
     margin-left: 150px;
     height: 48px;
     width: 200px;
-    background-image: url(/NetflixProject/img/netflix\ logo-Photoroom.png);
+    background-image: url(/NetflixProject/img/Netflix_Logo_RGB.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -207,5 +207,5 @@ h3{
 }
 
 .scroll{
-    
+    height: 260px;
 }
