@@ -204,8 +204,22 @@ h3{
 .scrollmov{
     height: 314px;
     
+    
 }
 
 .scroll{
     height: 260px;
+    display: inline-flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.posters{
+    height: 196px;
+    width: 140px;
+    padding-top: 6.4px;
+    padding-bottom: 6.4px;
+    padding-left: 22px  ;
+    padding-right:  22px;   
+
 }
