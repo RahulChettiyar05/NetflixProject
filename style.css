@@ -329,3 +329,13 @@ h3{
     font-weight: bold;
     margin-left: 10px;
 }
+
+/* Netflix footer */
+
+.footercontainer{
+    background-color: #000000;
+    height: 433px;
+    box-sizing: border-box;
+    padding-left: 148px;
+    padding-right: 148px;
+}
