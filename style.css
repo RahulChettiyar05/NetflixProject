@@ -263,7 +263,7 @@ h3{
 }
 
 .fqaskcontainer{
-    height:1224px;
+    height: 600px;
     margin-top: 16px;
 }
 
@@ -286,4 +286,10 @@ h3{
 #fqheaders{
     font-size: 24px;
     font-weight: 400;
+}
+
+#heading{
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
 }
