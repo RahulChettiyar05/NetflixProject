@@ -339,3 +339,33 @@ h3{
     padding-left: 148px;
     padding-right: 148px;
 }
+                /* For FC1 */
+.fc1{
+    height: 20px;
+    width: 269px;
+    box-sizing: border-box;
+    padding-left: 3px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.link1{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+            /* For FC2 */
+
+.fc2{
+    height:132px;
+    margin-top: 36px;
+    box-sizing: border-box;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a{
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 12px;
+    font-size: 14px;
+}
