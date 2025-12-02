@@ -334,7 +334,7 @@ h3{
 
 .footercontainer{
     background-color: #000000;
-    height: 433px;
+    height: 550px;
     box-sizing: border-box;
     padding-left: 148px;
     padding-right: 148px;
@@ -419,4 +419,25 @@ ul a{
 
 #fc42 a{
     color: rgb(128, 130, 250);
+}
+
+            /* For FC5 */
+
+.fc5{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.myname{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    
+    font-weight: bolder;
+}
+
+.myname:hover{
+    color: rgb(229, 9, 20);
 }
